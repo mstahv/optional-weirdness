@@ -7,9 +7,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>library</module>
-        <module>optional-becomes-available-via-test</module>
         <module>test-library</module>
         <module>library-that-should-remain-optional</module>
+        <module>optional-becomes-available-via-test</module>
+        <module>workaround-with-optional-test</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

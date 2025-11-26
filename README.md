@@ -10,3 +10,5 @@ mvn install
 cd optional-becomes-available-via-test
 mvn dependency:tree
 ```
+
+A simple workaround is presented in the `workaround-with-optional-test` module. There the test dependency is declared with `<optional>true</optional>` which test dependencies kind of always are anyways. In that project `library-that-should-remain-optional` remains optional.
